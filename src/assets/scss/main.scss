@@ -1,0 +1,12 @@
+@import 'tachyons';
+
+.site-sidebar{
+	background:url(https://i.imgur.com/5ObpK5B.jpg) no-repeat center center fixed;
+	background-size: cover;
+}
+
+#main{
+	@media #{$breakpoint-large} {
+		margin-left:30%;
+	}
+}
